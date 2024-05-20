@@ -13,3 +13,51 @@
  *= require_tree .
  *= require_self
  */
+
+ .my-form {
+    background-color: #f8f9fa; /* Light grey background color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding around the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  }
+  
+  .my-form .form-control {
+    border: 1px solid #ced4da; /* Border color for text inputs */
+    border-radius: 4px; /* Rounded corners for text inputs */
+    padding: 10px; /* Padding inside text inputs */
+  }
+  
+  .my-form .btn {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* No border for buttons */
+    border-radius: 4px; /* Rounded corners for buttons */
+    padding: 10px 20px; /* Padding inside buttons */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s;
+  }
+  
+  .styled-paragraph {
+    margin-bottom: 20px; /* Spacing between paragraphs */
+  }
+  
+  .styled-paragraph:first-child {
+    color: #007bff; /* Color for the question text */
+    font-weight: bold; /* Bold font weight for the question */
+  }
+  
+  .styled-paragraph:last-child {
+    color: #28a745; /* Color for the coach's answer text */
+    font-style: italic; /* Italic font style for the coach's answer */
+  }
+  
+  .styled-container {
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding around the container */
+    background-color: #f8f9fa; /* Light grey background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  }
+  
+  

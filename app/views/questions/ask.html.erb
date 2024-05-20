@@ -1,0 +1,6 @@
+<div class="container styled-container">
+  <%= form_tag("/answer", method: "get", data: { turbo: false }, class: "my-form") do %>
+    <%= text_field_tag(:question, nil, class: "form-control") %>
+    <%= submit_tag("Ask!", class: "btn btn-primary") %>
+  <% end %>
+</div>
